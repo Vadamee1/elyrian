@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Providers } from "./providers";
 import "./globals.css";
+import AppBar from "@/components/shared/AppBar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,9 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        <Providers>{children}</Providers>
+    <html lang="en" className="purple-dark">
+      <body className="h-screen">
+        <Providers>
+          <AppBar />
+          {children}
+        </Providers>
       </body>
     </html>
   );
