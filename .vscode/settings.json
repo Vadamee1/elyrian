@@ -1,6 +1,6 @@
 {
   "cSpell.language": "en,es",
-  "cSpell.words": ["Brillitos", "conejita", "imgs", "lucide"],
+  "cSpell.words": [],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.format": "explicit"
