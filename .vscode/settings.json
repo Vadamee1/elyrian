@@ -1,6 +1,6 @@
 {
   "cSpell.language": "en,es",
-  "cSpell.words": [],
+  "cSpell.words": ["elyrian"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.format": "explicit"

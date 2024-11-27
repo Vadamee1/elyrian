@@ -1,5 +1,5 @@
 import HistoryTabs from "@/components/pages/lore/HistoryTabs";
-import RaceCard from "@/components/pages/lore/RaceCard";
+import RaceCard from "@/components/pages/lore/RaceCards";
 import { titleFont } from "@/config/fonts";
 import { Card, Divider } from "@nextui-org/react";
 

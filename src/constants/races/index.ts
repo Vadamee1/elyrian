@@ -27,3 +27,8 @@ export const raceData: Race[] = [
     image: "/api/placeholder/200/200",
   },
 ];
+
+export const humans = {
+  name: "Humanos",
+  description: [""],
+};

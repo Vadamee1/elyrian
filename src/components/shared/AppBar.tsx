@@ -21,17 +21,17 @@ export default function AppBar() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="warning" href="/lore">
             Lore
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="secondary">
+        <NavbarItem>
+          <Link href="#" color="warning">
             Users
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="warning" href="#">
             Activities
           </Link>
         </NavbarItem>

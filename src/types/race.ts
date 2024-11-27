@@ -1,7 +1,10 @@
+import { ReactNode } from "react";
+
 export type Race = {
   id: number;
   name: string;
   shortDescription?: string;
+  modal?: ReactNode;
   image: string;
 };
 
