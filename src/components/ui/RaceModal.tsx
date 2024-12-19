@@ -27,7 +27,7 @@ export default function RaceModal({
       isOpen={isOpen}
       onOpenChange={onOpenChange}
       scrollBehavior="outside"
-      size="xl"
+      size="2xl"
     >
       <ModalContent
         className="bg-[#F5E6D3] border-4 border-[#8B4513] shadow-xl 
@@ -58,7 +58,7 @@ export default function RaceModal({
             >
               <Button
                 onPress={onClose}
-                className="bg-[#EAD1A8] text-[#6B4423] border-t-2 border-[#8B4513] mb-1"
+                className="bg-[#EAD1A8] text-[#6B4423] text-xl border-t-2 border-[#8B4513] mb-1"
               >
                 Close
               </Button>

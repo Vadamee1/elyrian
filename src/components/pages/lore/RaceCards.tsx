@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { raceData } from "@/constants/races";
 import HumanModal from "./modals/HumanModal";
 import ElfModal from "./modals/ElfModal";
+import DwarveModal from "./modals/DwarveModal";
 
 export default function RaceCard() {
   const [raceInfo, setRaceInfo] = useState(0);
@@ -24,6 +25,9 @@ export default function RaceCard() {
       )}
       {raceInfo === 2 && (
         <ElfModal isOpen={isOpen} onOpenChange={onOpenChange} />
+      )}
+      {raceInfo === 3 && (
+        <DwarveModal isOpen={isOpen} onOpenChange={onOpenChange} />
       )}
     </>
   );
